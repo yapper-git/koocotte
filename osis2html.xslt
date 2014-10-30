@@ -90,7 +90,7 @@ span.osisNote {
 		<div class='osisBook'>
 
 			<!-- Titre du livre -->
-			<h1><a name='{@osisID}'><xslt:value-of select="osis:title[@type='main']"/></a></h1>
+			<h1 id='{@osisID}'><xslt:value-of select="osis:title[@type='main']"/></h1>
 
 			<!-- Génère la liste des chapitres -->
 			<div class='sommaireChap'>Accès aux chapitres:<ul class='sommaireChap'>
@@ -116,7 +116,7 @@ span.osisNote {
 
 	<xslt:template match="osis:chapter">
 		<div class='osisChapter'>
-			<h2><a name='{@osisID}'><xslt:value-of select="osis:title[@type='chapter']"/></a></h2>
+			<h2 id='{@osisID}'><a href="#{@osisID}"><xslt:value-of select="osis:title[@type='chapter']"/></a></h2>
 			<xslt:apply-templates/>
 		</div>
 	</xslt:template>
@@ -176,7 +176,7 @@ span.osisNote {
 	-->
 
 	<xslt:template match="osis:verse[@sID]">
-		<a class='osisVerse' id='{@osisID}' name='{@osisID}'><xslt:value-of select="@n"/></a>
+		<a class='osisVerse' id='{@osisID}' href='#{@osisID}'><xslt:value-of select="@n"/></a>
 		<xslt:apply-templates/>
 	</xslt:template>
 
