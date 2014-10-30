@@ -86,7 +86,7 @@
 				</div>
 				<div type="bookGroup">
 					<title>Nouveau Testament</title>
-					<xsl:apply-templates select=".//osis:div[position()&gt;39]"/>	
+					<xsl:apply-templates select=".//osis:div[position()&gt;39]"/>
 				</div>
 			</osisText>
 		</osis>
