@@ -41,6 +41,7 @@ build/1-darby.html: $(SRC)
 	perl -p -e 's/&#8217;/\x27/g; s/(?<=\S)(<(?:i|span)[^>]*>\s*)$$/ $$1/g;' $< > $@
 	#perl -p -e "s/&#8217;/\'/g;" $< > $@
 	#sed -i -r 's/<(i|span)[^>]*>\r/ \0/g' $@
+	sed -i -r 's#<html[^>]+>#<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">#' $@
 
 # Tidy: HTML to well-formed xhtml translator 
 build/2-darby.xhtml: build/1-darby.html
