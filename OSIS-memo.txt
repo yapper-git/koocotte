@@ -1,0 +1,40 @@
+<a href="">					Lien
+<abbr expansion="">				Abbréviation
+<catchWord>					Gras
+<chapter osisID="" chapterTitle="">		Chapitre
+<closer>					Fin de lettre
+<div type="" canonical="">			Division du texte
+	• acknowledgement • afterword • annotant • appendix • article •
+	article • back • body • book • bookGroup • chapter • colophon •
+	commentary • concordance • coverPage • dedication • devotional •
+	entry • front • gazetteer • glossary • imprimatur • index •
+	introduction • majorSection • map • outline • paragraph • part •
+	preface • section • subSection • titlePage
+<divineName type="">				Nom de Dieu
+<foreign ??>					Texte dans une langue étrangère
+<head>						Sous-titre
+<hi>						Police distincte
+<inscription>					Inscription écrite sur un support (mur, papier)
+<l level="indentation" type="">			Ligne d'un poème (lg)
+	• refrain • doxology • selah • attribution
+<lb type="x-"/>					Saut de ligne
+<lg>						Poème
+<mentioned>					Référence à un nom
+<name type="">					Nom de personne ou de lieu
+	• geographic • holiday • nonhuman • person • ritual
+<note type="">					Note
+	• allusion • alternative • background • citation • crossReference • devotional • encoder 
+	• exegesis • explanation • liturgical • speaker • study • translation • variant
+<p>						Paragraphe
+<q level="n(imbrication)" who="">		Citation
+<reference type="">				Référence
+<salute>					Salutation
+<signed>					Signature dans un <closer>
+<speaker>					Personne qui parle correspondant à un <q>
+<speech>					Discourt
+<title type="">					Titre
+	• acrostic • chapter • continued • main • parallel • runningHead • scope • sub
+<transChange type="">				Ajouts pour la compréhension
+	• added • amplified • changed • deleted • implied • moved • tenseChange
+<verse osisID="" n="">				Verset
+<word gloss="s:H325>				Numéros Strong (doit être défini dans l'entête)

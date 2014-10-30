@@ -1,0 +1,629 @@
+--- build/2-darby.xhtml	2013-08-22 10:47:06.000000000 +0200
++++ build/3-darby.xhtml	2013-08-22 11:27:40.000000000 +0200
+@@ -1327,7 +1327,7 @@
+     Aner, Eshcol et Mamré&#160;: eux, ils prendront leur part.</p>
+ 
+     <p class="Note">— v. 18*&#160;: roi de justice. — v. 18**&#160;: <i>hébreu</i>&#160;: El, le Fort, <i>distingué
+-    toujours</i> d'Élohim (Dieu), <i>et</i> d'Éloah (#Dieu), <i>par</i> <i>l'astérisque* précédant le mot de</i>
++    toujours</i> d'Élohim (Dieu), <i>et</i> d'Éloah (#Dieu), <i>par</i> <i>l'astérisque∗ précédant le mot de</i>
+     Dieu&#160;; <i>comparer</i> Genèse 1:1 <i>et</i> Deut. 32:15. — v. 18***&#160;: Très-haut, <i>en hébreu</i>&#160;:
+     Élion. — v. 21&#160;: <i>litt.</i>: âmes.</p>
+ 
+@@ -5029,7 +5029,7 @@
+ 
+     <p class="Chapitre"><a name="at01_49"></a>Chapitre 49</p>
+ 
+-    <p class="Posie">1 Et Jacob appela ses fils, et dit&#160;: Assemblez-vous, et je vous ferai savoir ce qui vous
++    <p class="Usuel">1 Et Jacob appela ses fils, et dit&#160;: Assemblez-vous, et je vous ferai savoir ce qui vous
+     arrivera à la fin des jours.</p>
+ 
+     <p class="Posie">2 Réunissez-vous, et écoutez, fils de Jacob&#160;; écoutez Israël, votre père.</p>
+@@ -44620,7 +44620,7 @@
+     qui les poursuivaient, tu les jetas dans les abîmes, comme une pierre dans les eaux puissantes.</p>
+ 
+     <p class="Note">— v. 6, 7&#160;: Tu [es] le Même, <i>ou</i>&#160;: Tu [es] Celui [qui est]&#160;: <i>cette
+-    expression devient un vrai nom de</i> Dieu&#160;; <i>comparer</i> Deut. 32:39&#160;; Ps. 102:27&#160;; És.
++    expression devient un vrai nom de</i> Dieu&#160;; <i>comparer</i> Deut. 32:39&#160;; Ps. 102:27&#160;; Ésaïe
+     41:4.</p>
+ 
+     <p class="Usuel">12 Et tu les conduisis de jour par une colonne de nuée, et de nuit par une colonne de feu, afin
+@@ -46195,7 +46195,7 @@
+ 
+     <p class="Posie">21 Leurs cordes* ne leur sont-elles pas arrachées&#160;? Ils meurent, et sans sagesse.</p>
+ 
+-    <p class="Note">— v. 21&#160;: les cordes qui retiennent une tente&#160;; <i>comparer</i> És. 33:20.</p>
++    <p class="Note">— v. 21&#160;: les cordes qui retiennent une tente&#160;; <i>comparer</i> Ésaïe 33:20.</p>
+ 
+     <p class="Chapitre"><a name="at18_05"></a>Chapitre 5</p>
+ 
+@@ -49099,7 +49099,7 @@
+ 
+     <p class="Clustersuprieur"><a name="at19_1"></a>LIVRE PREMIER</p>
+ 
+-    <p class="Usuel" align="center"><a href="#at19_1_01">1</a>, <a href="#at19_1_02">2</a>, <a href="#at19_1_03">3</a>,
++    <!-- <p class="Usuel" align="center"><a href="#at19_1_01">1</a>, <a href="#at19_1_02">2</a>, <a href="#at19_1_03">3</a>,
+     <a href="#at19_1_04">4</a>, <a href="#at19_1_05">5</a>, <a href="#at19_1_06">6</a>, <a href="#at19_1_07">7</a>,
+     <a href="#at19_1_08">8</a>, <a href="#at19_1_09">9</a>, <a href="#at19_1_10">10</a>, <a href="#at19_1_11">11</a>,
+     <a href="#at19_1_12">12</a>, <a href="#at19_1_13">13</a>, <a href="#at19_1_14">14</a>, <a href="#at19_1_15">15</a>,
+@@ -49109,7 +49109,7 @@
+     <a href="#at19_1_28">28</a>, <a href="#at19_1_29">29</a>, <a href="#at19_1_30">30</a>, <a href="#at19_1_31">31</a>,
+     <a href="#at19_1_32">32</a>, <a href="#at19_1_33">33</a>, <a href="#at19_1_34">34</a>, <a href="#at19_1_35">35</a>,
+     <a href="#at19_1_36">36</a>, <a href="#at19_1_37">37</a>, <a href="#at19_1_38">38</a>, <a href="#at19_1_39">39</a>,
+-    <a href="#at19_1_40">40</a>, <a href="#at19_1_41">41</a></p>
++    <a href="#at19_1_40">40</a>, <a href="#at19_1_41">41</a></p> -->
+ 
+     <p class="Usuel">&#160;</p>
+ 
+@@ -50281,9 +50281,9 @@
+ 
+     <p class="Clustermoyen">*</p>
+ 
+-    <p class="Chapitre"><a name="at19_1_25"></a>PSAUME 25*</p>
++    <p class="Chapitre"><a name="at19_1_25"></a>PSAUME 25</p>
+ 
+-    <p class="Sous-Titre">De David.</p>
++    <p class="Sous-Titre">* De David.</p>
+ 
+     <p class="Note">— *&#160;: <i>Dans ce psaume et le Ps. 34, la lettre hébraïque initiale de chaque verset suit
+     l'ordre alphabétique</i>.</p>
+@@ -50748,9 +50748,9 @@
+ 
+     <p class="Usuel">22 Que ta bonté, ô Éternel&#160;! soit sur nous, selon que nous nous sommes attendus à toi.</p>
+ 
+-    <p class="Chapitre"><a name="at19_1_34"></a>PSAUME 34*</p>
++    <p class="Chapitre"><a name="at19_1_34"></a>PSAUME 34</p>
+ 
+-    <p class="Sous-Titre">De David, quand il dissimula sa raison devant Abimélec**, qui le chassa, et il s'en alla.</p>
++    <p class="Sous-Titre">* De David, quand il dissimula sa raison devant Abimélec**, qui le chassa, et il s'en alla.</p>
+ 
+     <p class="Note">— *&#160;: <i>voir la note au</i> Psaume 25. — **&#160;: <i>titre des rois philistins</i> (?).</p>
+ 
+@@ -50948,9 +50948,9 @@
+ 
+     <p class="Note">— v. 6&#160;: <i>litt.</i>: montagnes de *Dieu.</p>
+ 
+-    <p class="Chapitre"><a name="at19_1_37"></a>PSAUME 37*</p>
++    <p class="Chapitre"><a name="at19_1_37"></a>PSAUME 37</p>
+ 
+-    <p class="Sous-Titre">De David.</p>
++    <p class="Sous-Titre">* De David.</p>
+ 
+     <p class="Note">— *&#160;: <i>La lettre hébraïque initiale de chaque alinéa de ce psaume suit l'ordre
+     alphabétique</i>.</p>
+@@ -51328,7 +51328,7 @@
+     <a href="#at19_2">Livre 2</a> (Ps. 42 à 72), <a href="#at19_3">Livre 3</a> (Ps. 73 à 89), <a href="#at19_4">Livre
+     4</a> (Ps. 90 à 106), <a href="#at19_5">Livre 5</a> (Ps. 107 à 150)</p>
+ 
+-    <p class="Usuel" align="center"><a href="#at19_2_42">42</a>, <a href="#at19_2_43">43</a>, <a href=
++    <!-- <p class="Usuel" align="center"><a href="#at19_2_42">42</a>, <a href="#at19_2_43">43</a>, <a href=
+     "#at19_2_44">44</a>, <a href="#at19_2_45">45</a>, <a href="#at19_2_46">46</a>, <a href="#at19_2_47">47</a>,
+     <a href="#at19_2_48">48</a>, <a href="#at19_2_49">49</a>, <a href="#at19_2_50">50</a>, <a href="#at19_2_51">51</a>,
+     <a href="#at19_2_52">52</a>, <a href="#at19_2_53">53</a>, <a href="#at19_2_54">54</a>, <a href="#at19_2_55">55</a>,
+@@ -51336,7 +51336,7 @@
+     <a href="#at19_2_60">60</a>, <a href="#at19_2_61">61</a>, <a href="#at19_2_62">62</a>, <a href="#at19_2_63">63</a>,
+     <a href="#at19_2_64">64</a>, <a href="#at19_2_65">65</a>, <a href="#at19_2_66">66</a>, <a href="#at19_2_67">67</a>,
+     <a href="#at19_2_68">68</a>, <a href="#at19_2_69">69</a>, <a href="#at19_2_70">70</a>, <a href="#at19_2_71">71</a>,
+-    <a href="#at19_2_72">72</a></p>
++    <a href="#at19_2_72">72</a></p> -->
+ 
+     <p class="Chapitre"><a name="at19_2_42"></a>PSAUME 42</p>
+ 
+@@ -52981,11 +52981,11 @@
+     <a href="#at19_2">Livre 2</a> (Ps. 42 à 72), <a href="#at19_3">Livre 3</a> (Ps. 73 à 89), <a href="#at19_4">Livre
+     4</a> (Ps. 90 à 106), <a href="#at19_5">Livre 5</a> (Ps. 107 à 150)</p>
+ 
+-    <p class="Usuel" align="center"><a href="#at19_3_73">73</a>, <a href="#at19_3_74">74</a>, <a href=
++    <!-- <p class="Usuel" align="center"><a href="#at19_3_73">73</a>, <a href="#at19_3_74">74</a>, <a href=
+     "#at19_3_75">75</a>, <a href="#at19_3_76">76</a>, <a href="#at19_3_77">77</a>, <a href="#at19_3_78">78</a>,
+     <a href="#at19_3_79">79</a>, <a href="#at19_3_80">80</a>, <a href="#at19_3_81">81</a>, <a href="#at19_3_82">82</a>,
+     <a href="#at19_3_83">83</a>, <a href="#at19_3_84">84</a>, <a href="#at19_3_85">85</a>, <a href="#at19_3_86">86</a>,
+-    <a href="#at19_3_87">87</a>, <a href="#at19_3_88">88</a>, <a href="#at19_3_89">89</a></p>
++    <a href="#at19_3_87">87</a>, <a href="#at19_3_88">88</a>, <a href="#at19_3_89">89</a></p> -->
+ 
+     <p class="Chapitre"><a name="at19_3_73"></a>PSAUME 73</p>
+ 
+@@ -54146,12 +54146,12 @@
+     <a href="#at19_2">Livre 2</a> (Ps. 42 à 72), <a href="#at19_3">Livre 3</a> (Ps. 73 à 89), <a href="#at19_4">Livre
+     4</a> (Ps. 90 à 106), <a href="#at19_5">Livre 5</a> (Ps. 107 à 150)</p>
+ 
+-    <p class="Usuel" align="center"><a href="#at19_4_090">90</a>, <a href="#at19_4_091">91</a>, <a href=
++    <!-- <p class="Usuel" align="center"><a href="#at19_4_090">90</a>, <a href="#at19_4_091">91</a>, <a href=
+     "#at19_4_092">92</a>, <a href="#at19_4_093">93</a>, <a href="#at19_4_094">94</a>, <a href="#at19_4_095">95</a>,
+     <a href="#at19_4_096">96</a>, <a href="#at19_4_097">97</a>, <a href="#at19_4_098">98</a>, <a href=
+     "#at19_4_099">99</a>, <a href="#at19_4_100">100</a>, <a href="#at19_4_101">101</a>, <a href="#at19_4_102">102</a>,
+     <a href="#at19_4_103">103</a>, <a href="#at19_4_104">104</a>, <a href="#at19_4_105">105</a>, <a href=
+-    "#at19_4_106">106</a></p>
++    "#at19_4_106">106</a></p> -->
+ 
+     <p class="Chapitre"><a name="at19_4_090"></a>PSAUME 90</p>
+ 
+@@ -55175,7 +55175,7 @@
+     <a href="#at19_2">Livre 2</a> (Ps. 42 à 72), <a href="#at19_3">Livre 3</a> (Ps. 73 à 89), <a href="#at19_4">Livre
+     4</a> (Ps. 90 à 106), <a href="#at19_5">Livre 5</a> (Ps. 107 à 150)</p>
+ 
+-    <p class="Usuel" align="center"><a href="#at19_5_107">107</a>, <a href="#at19_5_108">108</a>, <a href=
++    <!-- <p class="Usuel" align="center"><a href="#at19_5_107">107</a>, <a href="#at19_5_108">108</a>, <a href=
+     "#at19_5_109">109</a>, <a href="#at19_5_110">110</a>, <a href="#at19_5_111">111</a>, <a href="#at19_5_112">112</a>,
+     <a href="#at19_5_113">113</a>, <a href="#at19_5_114">114</a>, <a href="#at19_5_115">115</a>, <a href=
+     "#at19_5_116">116</a>, <a href="#at19_5_117">117</a>, <a href="#at19_5_118">118</a>, <a href="#at19_5_119">119</a>,
+@@ -55187,7 +55187,7 @@
+     "#at19_5_137">137</a>, <a href="#at19_5_138">138</a>, <a href="#at19_5_139">139</a>, <a href="#at19_5_140">140</a>,
+     <a href="#at19_5_141">141</a>, <a href="#at19_5_142">142</a>, <a href="#at19_5_143">143</a>, <a href=
+     "#at19_5_144">144</a>, <a href="#at19_5_145">145</a>, <a href="#at19_5_146">146</a>, <a href="#at19_5_147">147</a>,
+-    <a href="#at19_5_148">148</a>, <a href="#at19_5_149">149</a>, <a href="#at19_5_150">150</a></p>
++    <a href="#at19_5_148">148</a>, <a href="#at19_5_149">149</a>, <a href="#at19_5_150">150</a></p> -->
+ 
+     <p class="Chapitre"><a name="at19_5_107"></a>PSAUME 107</p>
+ 
+@@ -55493,12 +55493,12 @@
+ 
+     <p class="Clustermoyen">*</p>
+ 
+-    <p class="Chapitre"><a name="at19_5_111"></a>PSAUME 111*</p>
++    <p class="Chapitre"><a name="at19_5_111"></a>PSAUME 111</p>
+ 
+-    <p class="Sous-Titre">Louez Jah. **</p>
++    <p class="Sous-Titre">* Louez Jah. **</p>
+ 
+     <p class="Note">— <i>*</i>&#160;: <i>La lettre hébraïque initiale de chacun des moitiés des versets des</i> Psaumes
+-    111 <i>et</i> 112 <i>suit l'ordre alphabétique. —</i> **&#160;: <i>autrement dit</i>&#160;: Alléluia<i>.</i></p>
++    111 <i>et</i> 112 <i>suit l'ordre alphabétique.</i> — **&#160;: <i>autrement dit</i>&#160;: Alléluia<i>.</i></p>
+ 
+     <p class="Usuel">1 Je célébrerai l'Éternel de tout mon cœur, dans la compagnie* des hommes droits et dans
+     l'assemblée.</p>
+@@ -55531,12 +55531,12 @@
+     <p class="Usuel">10 La crainte de l'Éternel est le commencement de la sagesse&#160;; tous ceux qui pratiquent [ses
+     préceptes] auront une bonne intelligence. Sa louange demeure à perpétuité.</p>
+ 
+-    <p class="Chapitre"><a name="at19_5_112"></a>PSAUME 112*</p>
++    <p class="Chapitre"><a name="at19_5_112"></a>PSAUME 112</p>
+ 
+-    <p class="Sous-Titre">Louez Jah. **</p>
++    <p class="Sous-Titre">* Louez Jah. **</p>
+ 
+     <p class="Note">— <i>*</i>&#160;: <i>La lettre hébraïque initiale de chacun des moitiés des versets des</i> Psaumes
+-    111 <i>et</i> 112 <i>suit l'ordre alphabétique. —</i> **&#160;: <i>autrement dit</i>&#160;: Alléluia<i>.</i></p>
++    111 <i>et</i> 112 <i>suit l'ordre alphabétique.</i> — **&#160;: <i>autrement dit</i>&#160;: Alléluia<i>.</i></p>
+ 
+     <p class="Usuel">1 Bienheureux l'homme qui craint l'Éternel [et] qui prend un grand plaisir en ses
+     commandements&#160;!</p>
+@@ -55832,7 +55832,9 @@
+ 
+     <p class="Clustermoyen">*</p>
+ 
+-    <p class="Chapitre"><a name="at19_5_119"></a>PSAUME 119*</p>
++    <p class="Chapitre"><a name="at19_5_119"></a>PSAUME 119</p>
++
++    <p class="Sous-Titre">*</p>
+ 
+     <p class="Note">— *&#160;: <i>Ce Psaume est divisé en paragraphes de huit versets chacun, la lettre hébraïque
+     initiale de chaque verset dans le paragraphe restant la même, et suivant, pour ceux-ci, l'ordre
+@@ -57140,9 +57142,9 @@
+ 
+     <p class="Note">— v. 14&#160;: <i>ou</i>&#160;: nos bœufs soient chargés.</p>
+ 
+-    <p class="Chapitre"><a name="at19_5_145"></a>PSAUME 145*</p>
++    <p class="Chapitre"><a name="at19_5_145"></a>PSAUME 145</p>
+ 
+-    <p class="Sous-Titre">Louange de David.</p>
++    <p class="Sous-Titre">* Louange de David.</p>
+ 
+     <p class="Note">— *&#160;: <i>La lettre hébraïque initiale de chaque verset de ce psaume suit l'ordre
+     alphabétique</i>.</p>
+@@ -61874,7 +61876,9 @@
+ 
+     <p class="Usuel">&#160;</p>
+ 
+-    <p class="Livre"><a name="at22"></a>LE CANTIQUE DES CANTIQUES*</p>
++    <p class="Livre"><a name="at22"></a>LE CANTIQUE DES CANTIQUES</p>
++
++    <p class="Sous-Titre">*</p>
+ 
+     <p class="Note">— *&#160;: <i>En général, dans ce livre, les alinéas marquent la succession des
+     interlocuteurs.</i></p>
+@@ -64024,7 +64028,7 @@
+     <p class="Note">— v. 14&#160;: les épargnés de la dispersion d'Israël. — v. 15*&#160;: <i>mot très-différemment
+     interprété</i>. — v. 15**&#160;: <i>ou</i>&#160;: de la mer. — v. 16&#160;: <i>ou</i>&#160;: de la terre.</p>
+ 
+-    <p class="Usuel">Et j'ai dit&#160;: Ma maigreur*, ma maigreur*, malheur à moi&#160;! Les perfides ont agi
++    <p class="Usuel">Et j'ai dit&#160;: Ma maigreur**, ma maigreur***, malheur à moi&#160;! Les perfides ont agi
+     perfidement, les perfides ont agi avec une insigne perfidie.</p>
+ 
+     <p class="Usuel">17 La frayeur, et la fosse, et le piège, sont sur toi, habitant du pays.</p>
+@@ -64038,7 +64042,7 @@
+     <p class="Usuel">20 la terre chancelle, elle chancelle comme un homme ivre&#160;; elle est ébranlée deçà et delà
+     comme une cabane pour la nuit&#160;; sa transgression pèse sur elle&#160;: elle tombera et ne se relèvera pas.</p>
+ 
+-    <p class="Note">— v. 16&#160;: <i>ou</i>&#160;: Maigreur à moi&#160;; <i>selon quelques-uns</i>&#160;: mon
++    <p class="Note">— v. 16**, 16***&#160;: <i>ou</i>&#160;: Maigreur à moi&#160;; <i>selon quelques-uns</i>&#160;: mon
+     secret.</p>
+ 
+     <p class="Usuel">21 Et il arrivera, en ce jour-là, que l'Éternel visitera* l'armée d'en haut, en haut, et les rois
+@@ -65660,7 +65664,7 @@
+ 
+     <p class="Note">— v. 9*&#160;: <i>ailleurs</i>&#160;: le vide. — v. 9**&#160;: <i>selon quelques-uns</i>&#160;:
+     oui, elles sont des témoins pour eux&#160;: elles ne voient pas et elles…. — v. 12*&#160;: <i>d'autres</i>&#160;:
+-    une hache. — v. 12**&#160;: <i>litt.</i>: la. — v. 13 <i>ou</i>&#160;: avec un poinçon. — v. 14*&#160;:
++    une hache. — v. 12**&#160;: <i>litt.</i>: la. — v. 13&#160;: <i>ou</i>&#160;: avec un poinçon. — v. 14*&#160;:
+     <i>litt.</i>: choisit (<i>ou</i> fortifie) pour lui. — v. 14**&#160;: <i>ou</i>&#160;: laurier (?). — v. 16&#160;:
+     <i>litt.</i>: la lumière.</p>
+ 
+@@ -71951,7 +71955,7 @@
+     notre Dieu.</p>
+ 
+     <p class="Note">— v. 10*&#160;: <i>litt</i>.: a fait sortir. — v. 10**&#160;: <i>hébreu</i>&#160;: nos
+-    justices&#160;; <i>comparer</i> És. 64:6.</p>
++    justices&#160;; <i>comparer</i> Ésaïe 64:6.</p>
+ 
+     <p class="Usuel">11 Aiguisez les flèches, prenez* les boucliers&#160;! L'Éternel a réveillé l'esprit des rois des
+     Mèdes, car sa pensée est contre Babylone pour la détruire, car c'est ici la vengeance de l'Éternel, la vengeance de
+@@ -72062,7 +72066,7 @@
+ 
+     <p class="Usuel">40 Je les ferai descendre comme des agneaux à la tuerie, comme des béliers avec des boucs.</p>
+ 
+-    <p class="Note">— v. 36*&#160;: <i>comparer</i> És. 34:8. — v. 36**&#160;: <i>comparer la note à</i> És. 19:5. — v.
++    <p class="Note">— v. 36*&#160;: <i>comparer</i> Ésaïe 34:8. — v. 36**&#160;: <i>comparer la note à</i> Ésaïe 19:5. — v.
+     37&#160;: <i>ou</i>&#160;: une désolation.</p>
+ 
+     <p class="Usuel">41 Comment a été prise Shéshac*, et comment la louange de toute la terre a-t-elle été
+@@ -72295,14 +72299,14 @@
+     <p class="AccesDirect">Accès direct aux chapitres des Lamentations de Jérémie&#160;: <a href="#at25_01">1</a>,
+     <a href="#at25_02">2</a>, <a href="#at25_03">3</a>, <a href="#at25_04">4</a>, <a href="#at25_05">5</a></p>
+ 
+-    <p class="Usuel">&#160;</p>
++    <p class="Chapitre"><a name="at25_01" id="at25_01"></a>Chapitre 1</p>
++
++    <p class="Sous-Titre">*</p>
+ 
+-    <p class="Note">— <i>La lettre hébraïque initiale de chacun des versets des chapitres 1, 2 et 4, suit l'ordre
++    <p class="Note">— *&#160;: <i>La lettre hébraïque initiale de chacun des versets des chapitres 1, 2 et 4, suit l'ordre
+     alphabétique&#160;; au chapitre 3, il en est de même pour chaque paragraphe de trois versets, la lettre initiale de
+     chacun de ceux-ci restant la même.</i></p>
+ 
+-    <p class="Chapitre"><a name="at25_01"></a>Chapitre 1</p>
+-
+     <p class="Posie">1 Comment est-elle assise solitaire, la ville si peuplée&#160;! Celle qui était grande entre les
+     nations est devenue comme veuve&#160;; la princesse parmi les provinces est devenue tributaire.</p>
+ 
+@@ -73457,7 +73461,7 @@
+     pays est rempli de sang, et la ville est remplie d'injustices&#160;; car ils ont dit&#160;: L'Éternel a abandonné
+     le pays*, et l'Éternel ne voit pas.</p>
+ 
+-    <p class="Usuel">10&#160;Et moi aussi, — mon œil n'aura point compassion, et je n'épargnerai pas&#160;; je ferai
++    <p class="Usuel">10 Et moi aussi, — mon œil n'aura point compassion, et je n'épargnerai pas&#160;; je ferai
+     retomber* leur voie sur leur tête.</p>
+ 
+     <p class="Usuel">11 Et voici, l'homme vêtu de lin, qui avait l'encrier à ses reins, rapporta, disant&#160;: J'ai
+@@ -79986,7 +79990,7 @@
+     <p class="Usuel">17 Et vous saurez que moi, l'Éternel, je suis votre Dieu, qui demeure en Sion, ma montagne sainte.
+     Et Jérusalem sera sainte, et les étrangers n'y passeront plus.</p>
+ 
+-    <p class="Note">— v. 14&#160;: <i>plutôt</i>&#160;: ce qui est décrété, <i>comparer</i> És. 10:22.</p>
++    <p class="Note">— v. 14&#160;: <i>plutôt</i>&#160;: ce qui est décrété, <i>comparer</i> Ésaïe 10:22.</p>
+ 
+     <p class="Usuel">18 Et il arrivera, en ce jour-là, que les montagnes ruisselleront de moût, et les collines
+     découleront de lait, et tous les torrents de Juda découleront d'eau&#160;; et une source sortira de la maison de
+@@ -80585,7 +80589,7 @@
+ 
+     <p class="Livre"><a name="at31"></a>ABDIAS</p>
+ 
+-    <p class="Usuel">&#160;</p>
++    <p class="Chapitre"><a name="at31_01"/>Chapitre 1</p>
+ 
+     <p class="Usuel">1 La vision d'Abdias.* — Ainsi dit le Seigneur, l'Éternel, touchant Édom. Nous avons entendu une
+     rumeur de par l'Éternel, et un ambassadeur a été envoyé parmi les nations&#160;: Levez-vous&#160;! et levons-nous
+@@ -80772,7 +80776,7 @@
+ 
+     <p class="Usuel">11 Et l'Éternel commanda au poisson, et il vomit Jonas sur la terre*.</p>
+ 
+-    <p class="Note">— v. 8&#160;: <i>ou</i>&#160;: palais. — v. 9&#160;: <i>au Psaume</i> 31:6&#160;: vaines idoles. —
++    <p class="Note">— v. 8&#160;: <i>ou</i>&#160;: palais. — v. 9&#160;: <i>au Psaume 31:6</i>&#160;: vaines idoles. —
+     v. 11&#160;: <i>litt</i>.: le sec.</p>
+ 
+     <p class="Chapitre"><a name="at32_03"></a>Chapitre 3</p>
+@@ -82284,14 +82288,14 @@
+ 
+     <p class="Usuel">3 Et il me dit&#160;: C'est ici la malédiction* qui sort sur la face de toute la terre**&#160;;
+     car tout voleur sera détruit, selon ce [qui est écrit]***, d'une part&#160;; et chacun qui jure sera détruit, selon
+-    ce [qui est écrit]***, de l'autre part.</p>
++    ce [qui est écrit]****, de l'autre part.</p>
+ 
+     <p class="Usuel">4 Je la fais sortir, dit l'Éternel des armées, et elle entrera dans la maison du voleur, et dans
+     la maison de celui qui jure faussement par mon nom&#160;; et elle logera au milieu de sa maison et la consumera
+     avec le bois et les pierres.</p>
+ 
+     <p class="Note">— v. 3*&#160;: <i>ailleurs</i>&#160;: exécration. — v. 3**&#160;: <i>litt</i>.: tout le pays. — v.
+-    3***&#160;: <i>litt</i>.: selon elle.</p>
++    3***, 3****&#160;: <i>litt</i>.: selon elle.</p>
+ 
+     <p class="Usuel">5 Et l'ange qui parlait avec moi sortit et me dit&#160;: Lève tes yeux et regarde&#160;: Qu'est-ce
+     qui sort là&#160;?</p>
+@@ -82727,7 +82731,7 @@
+ 
+     <p class="Usuel">14 toutes les familles qui seront de reste, chaque famille à part, et leurs femmes à part.</p>
+ 
+-    <p class="Note">— v. 11&#160;: <i>comparer la note à</i> Josué 11:8. — v. 13 <i>voir</i> Nombres 3:21 (?).</p>
++    <p class="Note">— v. 11&#160;: <i>comparer la note à</i> Josué 11:8. — v. 13&#160;: <i>voir</i> Nombres 3:21 (?).</p>
+ 
+     <p class="Chapitre"><a name="at38_13"></a>Chapitre 13</p>
+ 
+@@ -83484,7 +83488,7 @@
+     <p class="Usuel">13 Vous êtes le sel de la terre*&#160;; mais si le sel a perdu sa saveur, avec quoi sera-t-il
+     salé&#160;? Il n'est plus bon à rien qu'à être jeté dehors et à être foulé aux pieds par les hommes.</p>
+ 
+-    <p class="Note">— v. 13&#160;: <i>ou</i>&#160;: pays.</p>
++    <p class="Usuel">&#160;</p>
+ 
+     <p class="Usuel">14 Vous êtes la lumière du monde&#160;: une ville située sur une montagne ne peut être cachée.</p>
+ 
+@@ -87642,7 +87646,7 @@
+     ceux qui sont ici présents, il y en a quelques-uns qui ne goûteront point la mort jusqu'à ce qu'ils aient vu le
+     royaume de Dieu venu avec puissance.</p>
+ 
+-    <p class="Note">— v. 35 <i>à</i> 37&#160;: <i>le terme original signifie à la fois</i>&#160;: vie <i>et</i>
++    <p class="Note">— v. 35, 36, 37&#160;: <i>le terme original signifie à la fois</i>&#160;: vie <i>et</i>
+     âme.</p>
+ 
+     <p class="Usuel">2 Et après six jours, Jésus prend avec lui Pierre et Jacques et Jean, et les mène seuls à l'écart,
+@@ -88871,7 +88875,7 @@
+     <p class="Usuel">23 Et il arriva que, quand les jours de son ministère furent accomplis, il s'en alla dans sa
+     maison.</p>
+ 
+-    <p class="Note">— v. 9 et 21 et 22&#160;: la maison même&#160;; <i>voir</i> Matthieu 23:16. — v. 13&#160;: <i>en
++    <p class="Note">— v. 9, 21, 22&#160;: la maison même&#160;; <i>voir</i> Matthieu 23:16. — v. 13&#160;: <i>en
+     hébreu</i>&#160;: l'Éternel a fait grâce. — v. 15&#160;: <i>plutôt</i>&#160;: ni aucune boisson fermentée. — v.
+     17&#160;: <i>ou</i>&#160;: selon. — v. 19&#160;: <i>litt</i>.: t'évangéliser ces choses.</p>
+ 
+@@ -90367,7 +90371,7 @@
+     <p class="Usuel">26 Et il lui dit&#160;: Qu'est-il écrit dans la loi&#160;? Comment lis-tu&#160;?</p>
+ 
+     <p class="Usuel">27 Et répondant, il dit&#160;: «Tu aimeras le *Seigneur ton Dieu de tout ton cœur, et de toute ton
+-    âme, et de toute ta force, et de toute ta pensée» <i>[Deutéronome 6:5]&#160;</i>; «et ton prochain comme toi-même»
++    âme, et de toute ta force, et de toute ta pensée» <i>[Deutéronome 6:5]</i>&#160;; «et ton prochain comme toi-même»
+     <i>[Lévitique 19:18]</i>.</p>
+ 
+     <p class="Usuel">28 Et il lui dit&#160;: Tu as bien répondu&#160;; fais cela, et tu vivras.</p>
+@@ -90748,7 +90752,7 @@
+ 
+     <p class="Note">— v. 24&#160;: <i>ou</i>&#160;: car ils. — v. 25 et 52&#160;: une seule. — v. 32&#160;:
+     <i>proprement</i>&#160;: [toi] le petit troupeau. — v. 35, 37**&#160;: <i>les vêtements orientaux, très-larges,
+-    devaient être retenus par une ceinture pour marcher ou agir</i>. — v. 36, 37*, 42 et suivants&#160;:
++    devaient être retenus par une ceinture pour marcher ou agir</i>. — v. 36, 37*, 42&#160;:
+     ordinairement&#160;: seigneur. — v. 38&#160;: <i>la nuit était divisée en 4 périodes, ou veilles&#160;; voir</i>
+     Marc 13:35. — v. 48&#160;: <i>litt</i>.: de lui il sera. — v. 49&#160;: <i>ou</i>&#160;: que puis-je désirer.</p>
+ 
+@@ -92438,7 +92442,7 @@
+     <p class="Usuel">5 Et la lumière luit dans les ténèbres&#160;; et les ténèbres ne l'ont pas comprise.</p>
+ 
+     <p class="Note">— v. 1&#160;: <i>ou</i>&#160;: le Verbe (<i>mot masculin dans l'original</i>). — v. 2&#160;:
+-    <i>ou</i>&#160;: Il (<i>le Verbe</i>). — v. 4 <i>ou aussi</i>&#160;: la lumière des hommes était la vie.</p>
++    <i>ou</i>&#160;: Il (<i>le Verbe</i>). — v. 4&#160;: <i>ou aussi</i>&#160;: la lumière des hommes était la vie.</p>
+ 
+     <p class="Usuel">6 Il y eut un homme envoyé de Dieu&#160;; son nom était Jean.</p>
+ 
+@@ -92556,7 +92560,7 @@
+ 
+     <p class="Note">— v. 39&#160;: <i>ici, et</i> <i>ailleurs</i> <i>souvent</i>&#160;: celui qui enseigne. — v.
+     40&#160;: <i>c'est-à-dire &#160;vers la fin de la journée (divisée en douze heures)</i>. — v. 42&#160;:
+-    <i>ou</i>&#160;: Oint&#160;; <i>voir</i> Psaume 2:2, 6&#160;; Matthieu 1:16. — v. 43 <i>ou</i>&#160;: pierre.</p>
++    <i>ou</i>&#160;: Oint&#160;; <i>voir</i> Psaume 2:2, 6&#160;; Matthieu 1:16. — v. 43&#160;: <i>ou</i>&#160;: pierre.</p>
+ 
+     <p class="Usuel">44 Le lendemain, il voulut s'en aller en Galilée. Et Jésus trouve Philippe, et lui dit&#160;:
+     Suis-moi.</p>
+@@ -93522,7 +93526,7 @@
+ 
+     <p class="Usuel">30 Comme il disait ces choses, plusieurs crurent en lui.</p>
+ 
+-    <p class="Note">— v. 23*&#160;: <i>litt</i>.: de ces choses qui sont en bas. — v. 23** <i>litt</i>.: de ces choses
++    <p class="Note">— v. 23*&#160;: <i>litt</i>.: de ces choses qui sont en bas. — v. 23**&#160;: <i>litt</i>.: de ces choses
+     qui sont en haut. — v. 25&#160;: dans le principe et l'universalité de ce que je suis. Sa parole, son langage, le
+     présentait lui-même, — étant la vérité. — v. 28&#160;: <i>c'est-à-dire</i> &#160;: qui je suis (le Fils et l'Envoyé
+     du Père).</p>
+@@ -93615,7 +93619,7 @@
+     <p class="Note">— v. 38&#160;: faire, <i>ici</i>, faire habituellement <i>ou</i> de manière caractéristique&#160;;
+     <i>ailleurs</i>&#160;: pratiquer. — v. 40&#160;: <i>litt</i>.: parlé. — v. 41&#160;: un seul. — v. 44&#160;:
+     <i>litt</i>.: ne s'est pas tenu debout. — v. 46&#160;: <i>c'est-à-dire</i> &#160;de défaillance dans
+-    l'accomplissement de ma mission. — v. 55* connaître, objectivement, — pour les Juifs — v. 55** connaître&#160;:
++    l'accomplissement de ma mission. — v. 55*&#160;: connaître, objectivement, — pour les Juifs — v. 55**&#160;: connaître&#160;:
+     <i>ici, et jusqu'à la fin du verset</i>&#160;: connaître subjectivement. — v. 56&#160;: <i>ou</i>&#160;: de voir. —
+     v. 58&#160;: vint à l'existence.</p>
+ 
+@@ -94107,7 +94111,7 @@
+     <p class="Usuel">26 Si quelqu'un me sert, qu'il me suive&#160;; et où je suis, moi, là aussi sera mon
+     serviteur&#160;: si quelqu'un me sert, le Père l'honorera.</p>
+ 
+-    <p class="Note">— v. 20 <i>ordinairement</i>&#160;: rendre hommage&#160;; <i>se dit à l'égard de Dieu et à l'égard
++    <p class="Note">— v. 20&#160;: <i>ordinairement</i>&#160;: rendre hommage&#160;; <i>se dit à l'égard de Dieu et à l'égard
+     des hommes</i>. — v. 21&#160;: <i>plutôt</i>&#160;: Monsieur.</p>
+ 
+     <p class="Usuel">27 Maintenant mon âme est troublée&#160;; et que dirai-je&#160;? Père, délivre-moi de cette
+@@ -94139,7 +94143,7 @@
+     <p class="Usuel">36 Pendant que vous avez la lumière, croyez en la lumière, afin que vous soyez fils de lumière.
+     Jésus dit ces choses, et s'en allant, il se cacha de devant eux.</p>
+ 
+-    <p class="Note">— v. 27 <i>c'est-à-dire</i> &#160;jusqu'à. — v. 31&#160;: Satan&#160;: <i>comparer</i> 14:30&#160;;
++    <p class="Note">— v. 27&#160;: <i>c'est-à-dire</i> &#160;jusqu'à. — v. 31&#160;: Satan&#160;: <i>comparer</i> 14:30&#160;;
+     16:11. — v. 33&#160;: <i>voir</i> 18:32. — v. 34&#160;: <i>proprement</i>&#160;: entendu dire.</p>
+ 
+     <p class="Usuel">37 Et quoiqu'il eût fait tant de miracles* devant eux, ils ne crurent pas en lui&#160;;</p>
+@@ -95365,7 +95369,7 @@
+ 
+     <p class="Note">— v. 15&#160;: <i>le milieu de la matinée</i>. — v. 18&#160;: <i>ailleurs aussi</i>&#160;:
+     esclaves. — v. 19&#160;: <i>litt</i>.: je donnerai. — v. 22&#160;: <i>à la fois révélé et consacré, d'où</i>
+-    accrédité. — v. 23 <i>ou</i>&#160;: hommes sans loi. — v. 27*, 31&#160;: le hadès est une expression très-vague,
++    accrédité. — v. 23&#160;: <i>ou</i>&#160;: hommes sans loi. — v. 27*, 31&#160;: le hadès est une expression très-vague,
+     <i>comme</i> shéol dans l'Ancien Testament, qui désigne le lieu invisible où les âmes des hommes vont après la
+     mort&#160;; le hadès est distinct de la géhenne qui est le lieu des tourments infernaux. — v. 27**&#160;:
+     <i>ou</i>&#160;: pieux&#160;; <i>voir</i> 13:35 <i>et</i> 2&#160;Chroniques 6:42&#160;; <i>correspond aux mots
+@@ -96114,7 +96118,7 @@
+     <p class="Usuel">36 Et comme ils continuaient leur chemin, ils arrivèrent à une eau, et l'eunuque dit&#160;: Voici
+     de l'eau, qu'est-ce qui m'empêche d'être baptisé&#160;?</p>
+ 
+-    <p class="Usuel">* 38 Et il donna l'ordre qu'on arrêtât le char, et ils descendirent tous deux à l'eau, et Philippe
++    <p class="Usuel">38 *Et il donna l'ordre qu'on arrêtât le char, et ils descendirent tous deux à l'eau, et Philippe
+     et l'eunuque&#160;; et [Philippe] le baptisa.</p>
+ 
+     <p class="Usuel">39 Et, quand ils furent remontés hors de l'eau, l'Esprit du Seigneur enleva Philippe, et l'eunuque
+@@ -96123,7 +96127,7 @@
+     <p class="Usuel">40 mais Philippe fut trouvé à Azot&#160;; et en passant au travers [du pays], il évangélisa toutes
+     les villes, jusqu'à ce qu'il fut arrivé à Césarée.</p>
+ 
+-    <p class="Note">— v. 37 <i>le «&#160;texte reçu&#160;» ajoute</i>&#160;: Et Philippe dit&#160;: Si tu crois de tout
++    <p class="Note">— v. 38&#160;: <i>le «&#160;texte reçu&#160;» ajoute</i>&#160;: (v.37) Et Philippe dit&#160;: Si tu crois de tout
+     ton cœur, [cela] est permis. Et répondant, il dit&#160;: Je crois que Jésus Christ est le Fils de Dieu.</p>
+ 
+     <p class="Chapitre"><a name="nt05_09"></a>Chapitre 9</p>
+@@ -96932,7 +96936,7 @@
+     <p class="Usuel">29 qu'on s'abstienne des choses sacrifiées aux idoles, et du sang, et de ce qui est étouffé, et de
+     la fornication. Si vous vous gardez de ces choses, vous ferez* bien. Portez-vous bien.</p>
+ 
+-    <p class="Note">— v. 25 <i>ou</i>&#160;: étant assemblés d'un commun accord. — v. 29&#160;: <i>ou</i>&#160;:
++    <p class="Note">— v. 25&#160;: <i>ou</i>&#160;: étant assemblés d'un commun accord. — v. 29&#160;: <i>ou</i>&#160;:
+     irez.</p>
+ 
+     <p class="Usuel">30 Eux donc ayant été congédiés, vinrent à Antioche, et ayant assemblé la multitude, ils remirent
+@@ -96946,10 +96950,10 @@
+     <p class="Usuel">33 Et après avoir séjourné là quelque temps, ils furent renvoyés en paix par les frères vers ceux
+     qui les avaient envoyés.</p>
+ 
+-    <p class="Usuel">* 35 Et Paul et Barnabas séjournèrent à Antioche, enseignant et annonçant, avec plusieurs autres
++    <p class="Usuel">35 *Et Paul et Barnabas séjournèrent à Antioche, enseignant et annonçant, avec plusieurs autres
+     aussi, la parole du Seigneur.</p>
+ 
+-    <p class="Note">— v. 34&#160;: <i>ajouté par le texte «reçu»</i>&#160;: Mais il sembla bon à Silas de demeurer
++    <p class="Note">— v. 35&#160;: <i>ajouté par le texte «reçu»</i>&#160;: (v.34) Mais il sembla bon à Silas de demeurer
+     là.</p>
+ 
+     <p class="Usuel">36 Et quelques jours après, Paul dit à Barnabas&#160;: Retournons maintenant visiter les frères
+@@ -97758,8 +97762,8 @@
+ 
+     <p class="Usuel">21 Et il* me dit&#160;: Va, car je t'enverrai au loin vers les nations.</p>
+ 
+-    <p class="Note">— ch. 21 v. 31&#160;: <i>ou</i>&#160;: commandant. — ch. 22 v. 1&#160;: <i>tournure hébraïque
+-    pour</i>&#160;: Frères et pères. — ch. 22 v. 18, 21&#160;: le, il&#160;: <i>renvoient à</i> «le Juste» <i>du
++    <p class="Note">— v. 31 (ch. 21)&#160;: <i>ou</i>&#160;: commandant. — v. 1 (ch. 22)&#160;: <i>tournure hébraïque
++    pour</i>&#160;: Frères et pères. — v. 18, 21&#160;: le, il&#160;: <i>renvoient à</i> «le Juste» <i>du
+     verset</i> 14.</p>
+ 
+     <p class="Usuel">22 Et ils l'écoutèrent jusqu'à ce mot, et ils élevèrent leur voix, disant&#160;: Ôte de la terre
+@@ -98913,7 +98917,7 @@
+     [la] vie éternelle par Jésus Christ notre Seigneur.</p>
+ 
+     <p class="Note">— v. 12&#160;: <i>la partie doctrinale de l'épître (chap. 1 à 8), jusqu'au chapitre 5:11 traite
+-    des</i> péchés<i>&#160;; à partir d'ici, elle s'occupe du</i> péché<i>.</i> — v. 13 à 17&#160;: <i>ces versets
++    des</i> péchés<i>&#160;; à partir d'ici, elle s'occupe du</i> péché<i>.</i> — v. 13&#160;: <i>Les versets 13 à 17
+     forment une parenthèse</i>. — v. 14&#160;: <i>comparer</i> Osée 6:7. — v. 15* et 16*&#160;: <i>ou</i>&#160;: il
+     n'en est. — v. 15** et 19&#160;: les plusieurs, <i>c'est-à-dire</i> &#160;la masse <i>en contraste avec la personne
+     en question</i>. — v. 16**&#160;: <i>c'est-à-dire</i> &#160;était fondé sur une seule chose <i>ou</i> un seul acte,
+@@ -99189,10 +99193,10 @@
+ 
+     <p class="Usuel">33 Qui intentera accusation contre des élus de Dieu&#160;?</p>
+ 
+-    <p class="Usuel">— C'est Dieu qui justifie&#160;; (34) qui est celui qui condamne&#160;?</p>
++    <p class="Usuel">— C'est Dieu qui justifie&#160;;</p><p class="Usuel">34 qui est celui qui condamne&#160;?</p>
+ 
+     <p class="Usuel">— C'est Christ qui est mort, mais plutôt qui est aussi ressuscité, qui est aussi à la droite de
+-    Dieu, qui aussi intercède pour nous&#160;; (35) qui est-ce qui nous séparera de l'amour du Christ&#160;?
++    Dieu, qui aussi intercède pour nous&#160;;</p><p class="Usuel">35 qui est-ce qui nous séparera de l'amour du Christ&#160;?
+     Tribulation, ou détresse, ou persécution, ou famine, ou nudité, ou péril, ou épée&#160;?</p>
+ 
+     <p class="Usuel">36 Selon qu'il est écrit&#160;: «Pour l'amour de toi, nous sommes mis à mort tout le jour&#160;;
+@@ -99311,7 +99315,7 @@
+     principe des œuvres&#160;: car ils ont heurté contre la pierre d'achoppement,</p>
+ 
+     <p class="Usuel">33 selon qu'il est écrit&#160;: «Voici, je mets en Sion une pierre d'achoppement, et un rocher de
+-    chute», et «celui qui croit en lui ne sera pas confus» <i>[Ésaïe 8:14&#160;; 28:16*]</i>.</p>
++    chute», et «celui qui croit en lui ne sera pas confus» <i>[Ésaïe 8:14&#160;; 28:16]</i>*.</p>
+ 
+     <p class="Note">— v. 33&#160;: <i>citation d'après la version grecque des Septante</i>, <i>comme</i> <i>aussi</i>
+     10:11, <i>et souvent</i> <i>ailleurs</i>.</p>
+@@ -100190,7 +100194,7 @@
+ 
+     <p class="Usuel">16 Je vous supplie* donc d'être mes imitateurs.</p>
+ 
+-    <p class="Note">— v. 6&#160;: <i>litt</i>.: l'un pour l'un contre l'autre. — v. 15 <i>litt</i>.: pédagogues,
++    <p class="Note">— v. 6&#160;: <i>litt</i>.: l'un pour l'un contre l'autre. — v. 15&#160;: <i>litt</i>.: pédagogues,
+     précepteurs. — v. 16&#160;: <i>ailleurs</i>&#160;: exhorter, encourager.</p>
+ 
+     <p class="Usuel">17 C'est pourquoi je vous ai envoyé Timothée, qui est mon enfant bien-aimé et qui est fidèle dans
+@@ -105199,7 +105203,7 @@
+ 
+     <p class="Livre"><a name="nt18"></a>Épître à PHILÉMON</p>
+ 
+-    <p class="Usuel">&#160;</p>
++    <p class="Chapitre"><a name="nt18_01"/>Chapitre 1</p>
+ 
+     <p class="Usuel">1 Paul, prisonnier de Jésus Christ, et le frère Timothée, à Philémon, le bien-aimé et notre
+     compagnon d'œuvre,</p>
+@@ -106602,7 +106606,7 @@
+     <p class="Usuel">6 Mais il donne une plus grande grâce. C'est pourquoi il dit&#160;: «Dieu résiste aux orgueilleux,
+     mais il donne [la] grâce aux humbles» <i>[Proverbes 3:34]</i>.</p>
+ 
+-    <p class="Usuel">7 Soumettez-vous donc à Dieu. *Résistez au diable, et il s'enfuira de vous.</p>
++    <p class="Usuel">7 Soumettez-vous donc à Dieu. * Résistez au diable, et il s'enfuira de vous.</p>
+ 
+     <p class="Usuel">8 Approchez-vous de Dieu, et il s'approchera de vous. Nettoyez vos mains, pécheurs, et purifiez
+     vos cœurs, vous qui êtes doubles de cœur*.</p>
+@@ -107259,7 +107263,7 @@
+     <p class="Note">— v. 1*&#160;: <i>c'est-à-dire</i> &#160;: écoles <i>ou</i> doctrines (non pas schismes),
+     <i>comme</i> en 1 Corinthiens 11:19. — v. 1**&#160;: maître d'un esclave, <i>ailleurs</i> seigneur <i>ou</i>
+     souverain&#160;; <i>comme</i> Luc 2:29. — v. 5&#160;: <i>c'est-à-dire</i> &#160;: avec sept autres&#160;; Genèse
+-    7:8. — v. 6 (et 6 à 8)&#160;: <i>voir</i> Genèse 19. — v. 8&#160;: actes sans loi, sans frein&#160;; <i>voir</i>
++    7:8. — v. 6&#160;: versets 6 à 8&#160;: <i>voir</i> Genèse 19. — v. 8&#160;: actes sans loi, sans frein&#160;; <i>voir</i>
+     Hébreux 8:12, <i>et</i> 1 Corinthiens 9:21. — v. 10&#160;: <i>litt</i>.: marchent après. — v. 11*&#160;:
+     n'admettant que leur propre opinion&#160;; <i>voir note à</i> Tite 1:7. — v. 11**&#160;: <i>litt.</i>: gloires. —
+     v. 13* et 15&#160;: <i>ailleurs</i> aussi&#160;: injustice&#160;; <i>comme</i> Jacques 3:6. — v. 13**&#160;:
+@@ -107731,7 +107735,7 @@
+ 
+     <p class="Livre"><a name="nt24"></a>Deuxième Épître de JEAN</p>
+ 
+-    <p class="Usuel">&#160;</p>
++    <p class="Chapitre"><a name="nt24_01"/>Chapitre 1</p>
+ 
+     <p class="Usuel">1 L'ancien à la dame élue et à ses enfants, que j'aime dans [la] vérité, — et non pas moi seul,
+     mais aussi tous ceux qui connaissent la vérité,</p>
+@@ -107780,7 +107784,7 @@
+ 
+     <p class="Livre"><a name="nt25"></a>Troisième Épître de JEAN</p>
+ 
+-    <p class="Usuel">&#160;</p>
++    <p class="Chapitre"><a name="nt25_01"/>Chapitre 1</p>
+ 
+     <p class="Usuel">1 L'ancien à Gaïus, le bien-aimé, que j'aime dans [la] vérité.</p>
+ 
+@@ -107835,7 +107839,7 @@
+ 
+     <p class="Livre"><a name="nt26"></a>Épître de JUDE</p>
+ 
+-    <p class="Usuel">&#160;</p>
++    <p class="Chapitre"><a name="nt26_01"/>Chapitre 1</p>
+ 
+     <p class="Usuel">1 Jude, esclave de Jésus Christ et frère de Jacques, aux appelés, bien-aimés en Dieu le Père, et
+     conservés en* Jésus Christ&#160;:</p>
+@@ -107935,7 +107939,7 @@
+ 
+     <p class="Livre"><a name="nt27"></a>APOCALYPSE</p>
+ 
+-    <p class="Note">ou&#160;: RÉVÉLATION</p>
++    <p class="Sous-Titre">*</p><p class="Note">— *&#160;: <i>ou</i>&#160;: RÉVÉLATION</p>
+ 
+     <p class="Usuel">&#160;</p>
+ 
+@@ -109471,7 +109475,7 @@
+     <p class="Usuel">7 Et voici, je viens bientôt*. Bienheureux celui qui garde les paroles de la prophétie de ce
+     livre.</p>
+ 
+-    <p class="Note">— v. 7, 12, 20&#160;: promptement, vitement.</p>
++    <p class="Note">— v. 7&#160;: promptement, vitement.</p>
+ 
+     <p class="Usuel">8 Et c'est moi, Jean, qui ai entendu et vu ces choses&#160;; et quand j'eus entendu et que j'eus
+     vu, je tombai à terre pour rendre hommage devant les pieds de l'ange qui me montrait ces choses.</p>
+@@ -109533,7 +109537,7 @@
+ 
+     <p class="Usuel">&#160;</p>
+ 
+-    <p class="Usuel" align="center">&#160;</p>
++    
+   </div>
+ </body>
+ </html>

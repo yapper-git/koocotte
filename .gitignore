@@ -1,0 +1,11 @@
+*~
+build/
+html/*.html
+!html/index.html
+sword/
+frejnd.conf
+darby.html.zip
+darby.osis.bz2
+darby.osis.xml
+darby.osis.zip
+darby.zip

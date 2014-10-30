@@ -1,0 +1,178 @@
+												Translate 
+												- <verset poesie="true">
+												- <cluster taille="moyen">
+												- <cluster taille="secondaire">
+												- <cluster taille="superieur">
+												Reconnaitre des références de passage
+												- <soustitre>
+												- Saut de paragraphes &#160; hors <p/>
+												Unparsable <note>
+												<note> related to <soustitre>
+												Validate OSIS file against XSD
+												Make sure no verse is missing (check incrementation) except Acts.8.37, Acts.15.34
+												<i>[Psaume 68:18]</i> as reference
+												Divine names http://www.bibliquest.org/Bible/Annexes/Bible-Signes_et_abreviations.htm
++   Texte de Jésus en rouge ? <q who="Jesus"></q>
+												Titres des psaumes au verset 0
+												Toutes les notes perdues (chercher les etoiles)
+												Compresser les modules
+												Fermer les versets avant les paragraphes (cf. paragraphe 10 page 54)
+												References dans le corps du texte (notes majuscules cf Jacques 4.7)
+++  Les références à És. ne sont pas reconnues (bug Perl avec utf8 ?)
+												Jonah.2.9 Référence à un Psaume (à ajouter dans darbypatch)
+												Problème des références locales, le n° de verset est utilisé comme Chapitre
+++  Notes ayant la même référence utilisées plusieurs fois.
+												Les références sont créées de la dernière à la première, donc les lettres sont dans le mauvais ordre.
++++ Exode 6: espace avant Jehovah en italique.
++++ Faire la feuille de style HTML pour l'impression
+												Faire la page d'index HTML
+												Revoir en CSS la liste des livres dans la bible complète
+												Revoir en CSS la liste des chapitres.
+++  Produire un fichier Bible complet HTML sans document externe.
++   Ajouter les numéros strongs par analogie avec un autre texte.
++++ Note de chapitre ou d'entête non reconnues Lam.1
++++ Notes en dehors de versets Ps 4-9, 16, 22, 25, 34, 37, 45, 46, 53-60, 69,
+    75, 76, 80, 81, 88, 106, 111-113, 119, 135, 145, 146, 148-150, Song,
+    Lam.1, Rev 1
+												+++ Notes sur les noms de livres Song,
+												+++ Notes sur les nom des chapitres, Ps 25, 34, 37
+
+Use milestoned chapters: <p>......<chapter eID=".."/><chapter sID=".."/>......</p>
+Add comments to .conf about stars
+												Corriger l'année dans le fichier .conf
+												in the Epistle to the Hebrews, it displays "Psaume #" instead of "Chapitre #"
+
+												etienne>In FreJND there are three types of paragraph delimiter mentionned
+													but I see only two used : ✱ and ☆. Even if ★ is said to be used in the
+													poetics sections, it is ✱ which is used in the Psalms. 
+
+
+Remarques:
+Nombres 35.16: Il manque la note
+Juges 9.47: Il manque la note
+Juges 13.19: Il manque les deux notes
+Gen.14.18: Corriger la note, le # en le bon caractère
+Exode 1.8: problème de saut de paragraphe
+
+HTML étrange en Gen.14.18
+
+												yvand> Comparez les versets suivants avec bibliquest par ex :
+												yvand> Jean 4v7 -- Jean 4v8
+												yvand> Jean 20:15 -- Jean 20:16
+												yvand> Jean 16:31 -- Jean 16:30
+												yvand> Jean 13:38 -- Jean 13:37
+
+Chris Little> WR> In the OSIS manual, an English translation of a Psalm is
+Chris Little> WR> encoded like this:
+Chris Little> WR> 
+Chris Little> WR>    <div type='section' scope='Ps.7.1-Ps.7.2'>
+Chris Little> WR>         <title>The LORD Always Does Right</title>
+Chris Little> WR>         <verse osisID='Ps.7.1'>
+Chris Little> WR>             You, LORD God, are my protector.
+Chris Little> WR> 
+Chris Little> WR> However, in the Hebrew versification tradition, the title is
+Chris Little> WR> actually verse one. So could it be encoded like this?
+Chris Little> WR> 
+Chris Little> WR>     <div type='section' scope='Ps.7.1-Ps.7.3'>
+Chris Little> WR>         <verse osisID='Ps.7.1'>
+Chris Little> WR>             <title>The LORD Always Does Right</title>
+Chris Little> WR>         </verse>
+Chris Little> WR>         <verse osisID='Ps.7.2'>
+Chris Little> WR>             You, LORD God, are my protector.
+Chris Little>  
+Chris Little> These are both correct, except that <title> should be <title type="psalm"
+Chris Little> canonical="true"> in both examples.
+
+												yvand> Est-ce normal/volontaire qu'il y ait "‡Seigneurs" en Actes 16v30 ?
+												yvand> (cf http://www.crosswire.org/wiki/Talk:FreJND#Double_dagger_symbol)
+
+												yvand> Le fichier OSIS est bien-formé mais non valide ! Cela à cause
+												yvand> d'un problème de notes imbriquées (interdit) en Rom.9.33 
+												
+												yvand> et des "étoiles"
+												yvand> (ou "clusters") qui sont par exemple parfois dans une balise <lg> mais en
+												yvand> dehors d'une balise <l>...  Par rapport à la version papier, les étoiles
+												yvand> sont placées au verset précédent, par ex en Gen 11, l'étoile se trouve dans
+												yvand> le fichier attachée au verset 27 (au début) et dans le fichier OSIS à la fin
+												yvand> du verset 26.  Ne serait-ce pas plus logique que cela soit au (début du)
+												yvand> verset 27 ?  (comme sur la version papier) Est-ce volontaire ?
+
+yvand> * Indentation
+yvand>   Suppression de retours à la ligne (dans les versets)
+yvand>   Permet de réduire le nombre de lignes d'une part (pour faire moins que
+yvand>   65535 lignes donc xmllint --schema et DOM->validateSchema fonctionnent
+yvand>   normalement!)
+yvand>   et rend le code plus lisible/uniforme
+
+yvand> * Titres des livres non uniformisés
+yvand>   Le titre a été mis en minuscules.
+yvand>   Est-ce mieux ?
+
+												yvand> * Titre des chapitres
+												yvand>   Dans Hébreux, remplacement de PSAUME n par Chapitre n (dans le title et le chapter)
+												yvand>   Dans les Psaumes, remplacement de PSAUME n par Psaume n (uniformiser avec
+												yvand>   Chapitre et non CHAPITRE)
+
+yvand> * Notes dans les Psaumes
+yvand>   Nombreuses modifications dans les titres et sous-titres des Psaumes.
+yvand>   Les notes relatives à un psaume, ont été placées dans le titre du Psaume
+yvand>   (exemple : Ps 25, 34...)
+
+yvand> * Note dans le titre d'un livre
+yvand>   Song, Rev : Note liée au chapitre (ajoutée au Cantique des Cantiques)
+yvand>   Quel attribut mettre n="0" (zéro et pas O) ?
+yvand>   Est-ce mieux de commencer la numérotation (a, b, c, d etc) du premier
+yvand>   chapitre ? (comme dans les Psaumes)
+yvand>   Pour les Psaumes, un Psaume = un chapitre... mais ici non (c'est une note
+yvand>   sur le titre du LIVRE et d'un chapitre !), que faire ?
+
+yvand> * bookGroup
+yvand>   Ajout des titres 'Livre premier', 'Livre deuxième' etc dans les Psaumes
+yvand>   Ajout du titre 'Livre des petits prophètes' (de Osée à Malachie)
+yvand>   (Malheureusement cela est mal géré par osis2mod... => faire un rapport de
+yvand>   bug)
+
+yvand> * Corrections diverses :
+yvand>   - Exod.6.2 : l'Éternel(Jéhovah) => l'Éternel (Jéhovah)
+yvand>   - Ps.34 : Note (copiée du Ps.25 et modifiée pour le Ps.34)
+yvand>   - Ps.54, Ps.55 : ajout note
+yvand>   - Ps.76 : note améliorée !
+yvand>   - Ps.34, Ps.60 note n°2, Ps.111 : ".." => "."
+yvand>   - Remplacemet de *, **, *** (exemple : Zech.5.3***, Num.35.16*, 1Chr.6.67*
+yvand>   - etc)
+yvand>   - Neh.11.10 : Note déplacée
+yvand>   - Neh.7.73, Ps.13.5, Ps.14.1, Ps.22.21 : Ajout d'un paragraphe manquant
+yvand>   - 1John.2.13 : Ajout de paragraphes, et d'une note manquante
+yvand>   - Acts.17.14_1 : c'est-à-dire => c. à d. (uniformiser avec le reste)
+yvand>   - Rom.1.20_2 : c'est-à-dire => c. à d.
+yvand>   - Rom.4.8_1 : c'est-à-dire => c. à d. + Ajout de l'italique manquant
+yvand>   - Exod.31.18_1 : date A.C 1491. => date : 1491 avant Jésus-Christ.
+yvand>   - (unformiser)
+yvand>   - 1Chr.26.18 : voir la note** à... voir la note g à...
+yvand>   - Neh.4.23_1, Matt.5.26_1 : Ajout d'un espace
+
+yvand> * osisRef
+yvand>   Les références ont été modifié parfois pour inclure plusieurs versets !
+yvand>   Exemple : <reference osisRef="Exod.22.26">Exode 22:26</reference>-27 =>
+yvand>   <reference osisRef="Exod.22.26-27">Exode 22:26-27</reference>
+yvand>   Cette syntaxe est correcte, et fonctionne dans Xiphos, BibleTime.
+
+												yvand> * Correction de la numérotation des notes (mise en place d'un script pour
+												yvand> * détecter les erreurs)
+												yvand>   - Gen.49
+												yvand>   - Num.21
+												yvand>   - Num.23
+												yvand>   - etc etc
+
+yvand> * Suppression de codes inutiles
+yvand>   - '</hi><hi type="italic">' par ''
+yvand>   - '</hi> <hi type="italic">' par ' '
+yvand>   - '</hi>, <hi type="italic">' par ', '
+
+												yvand> Sinon le découpage des paragraphes est souvent faux (exemple : Gen.6.2,
+												yvand> Gen.7.2, Gen.8.2, Gen.9.2, Gen.12.2, Gen.13.2, Gen.15.2, Gen.16.2,
+												yvand> Gen.19.2 etc mais pas partout ! bug bizzarre).
+
+Etoiles pas forcément bonnes, voir Esa 34, Esa 36 et les 5 début de livres des
+Psaumes, le libellé "Petit alinéa (texte poétique) 	Small space between
+paragraph (poetics)" semble faux.

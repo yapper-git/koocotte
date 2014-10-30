@@ -1,0 +1,79 @@
+\x{2731} - ✱ - Alinéa - Large space between paragraph.
+\x{2606} - ☆ - Grand alinéa - Larger space between paragraph.
+\x{2605} - ★ - Petit alinéa (texte poétique) - Small space between paragraph (poetics)
+         - L'Éternel = YHWH 
+         - Dieu = Elohim
+\x{2217} - ∗Dieu = El
+\x{2217} - ∗Seigneur = Jéhovah
+\x{2020} - †Dieu = Éloah
+
+
+#AT		AT
+#at01	Gen	Genèse		Beréchit
+#at02	Exod	Exode		Chemot
+#at03	Lev	Lévitique	Vayiqra
+#at04	Num	Nombres		Bamidbar
+#at05	Deut	Deutéronome	Devarim
+#at06	Josh	Josué
+#at07	Judg	Juges
+#at08	Ruth	Ruth
+#at09	1Sam	1 Samuel
+#at10	2Sam	2 Samuel
+#at11	1Kgs	1 Rois
+#at12	2Kgs	2 Rois
+#at13	1Chr	1 Chroniques
+#at14	2Chr	2 Chroniques
+#at15	Ezra	Esdras
+#at16	Neh	Néhémie
+#at17	Esth	Esther
+#at18	Job	Job
+#at19	Ps	Psaumes
+#at20	Prov	Proverbes
+#at21	Eccl	Ecclésiaste
+#at22	Song	Cantique des Cantiques
+#at23	Isa	Ésaïe
+#at24	Jer	Jérémie
+#at25	Lam	Lamentations de Jérémie
+#at26	Ezek	Ézéchiel
+#at27	Dan	Daniel
+#at28	Hos	Osée
+#at29	Joel	Joël
+#at30	Amos	Amos
+#at31	Obad	Abdias
+#at32	Jonah	Jonas
+#at33	Mic	Michée
+#at34	Nah	Nahum
+#at35	Hab	Habakuk
+#at36	Zeph	Sophonie
+#at37	Hag	Aggée
+#at38	Zech	Zacharie
+#at39	Mal	Malachie
+
+#NT		NT
+#nt01	Matt	Matthieu
+#nt02	Mark	Marc
+#nt03	Luke	Luc
+#nt04	John	Jean
+#nt05	Acts	Actes
+#nt06	Rom	Romains
+#nt07	1Cor	1 Corinthiens
+#nt08	2Cor	2 Corinthiens
+#nt09	Gal	Galates
+#nt10	Eph	Éphésiens
+#nt11	Phil	Philippiens
+#nt12	Col	Colossiens
+#nt13	1Thess	1 Thessaloniciens
+#nt14	2Thess	2 Thessaloniciens
+#nt15	1Tim	1 Timothée
+#nt16	2Tim	2 Timothée
+#nt17	Titus	Tite
+#nt18	Phlm	Philémon
+#nt19	Heb	Hébreux
+#nt20	Jas	Jacques
+#nt21	1Pet	1 Pierre
+#nt22	2Pet	2 Pierre
+#nt23	1John	1 Jean
+#nt24	2John	2 Jean
+#nt25	3John	3 Jean
+#nt26	Jude	Jude
+#nt27	Rev	Apocalypse
