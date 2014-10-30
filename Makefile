@@ -43,7 +43,7 @@ build/1-darby.html: $(SRC)
 	#sed -i -r 's/<(i|span)[^>]*>\r/ \0/g' $@
 	sed -i -r 's#<html[^>]+>#<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">#' $@
 
-# Tidy: HTML to well-formed xhtml translator 
+# Tidy: HTML to well-formed xhtml translator
 build/2-darby.xhtml: build/1-darby.html
 	-tidy -indent -wrap 120 -numeric -asxml -language fr --char-encoding utf8 --input-encoding latin1 --word-2000 true --doctype omit -o $@ $<
 
@@ -70,7 +70,7 @@ build/6-darby.xml: build/5-darby.xml darby2osis.xslt
 
 # Validate OSIS file
 darby.osis.xml: build/6-darby.xml
-	xmllint $(NONET) --timing --output $@ --schema $(SCHEMA) $< 
+	xmllint $(NONET) --timing --output $@ --schema $(SCHEMA) $<
 
 # Create HTML files
 html/darby.html: darby.osis.xml osis2html.xslt
