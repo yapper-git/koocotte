@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd ..
+cd "$(dirname "$0")" && cd ..
+
 make build/5-darby.xml > /dev/null
 
 until grep '<reference osisRef="John.2.1"' build/5-darby.xml > /dev/null

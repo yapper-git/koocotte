@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OSIS_FILE=../darby.osis.xml
+OSIS_FILE=darby.osis.xml
 TMP_FOLDER=$(mktemp -d)
 VERSIFICATIONS="
     Catholic
@@ -20,6 +20,8 @@ VERSIFICATIONS="
     SynodalProt
     Vulg
 "
+
+cd "$(dirname "$0")" && cd ..
 
 for VERSIFICATION in $VERSIFICATIONS
 do
