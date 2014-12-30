@@ -62,7 +62,7 @@ BEGIN {
 		'Matt' =>	'Matt%hieu',
 		'Mark' =>	'Marc',
 		'Luke' =>	'Luc',
-		'John' =>	'Jean',
+		'John' =>	'(?<![123][ -])Jean',
 		'Acts' =>	'Actes',
 		'Rom' =>	'Rom%ains',
 		'1Cor' =>	'1[ -]?Cor%inthiens',
