@@ -108,7 +108,7 @@ diff: build/2-darby.xhtml build/3-darby.xhtml
 	-diff -u $+ > darby.patch
 
 clean:
-	-rm -f build/[3-9]* darby.osis.xml html/*.html sword/[a-z]* zsword/[a-z]* darby.osis.bz2 darby.osis.zip darby.zip darby.html.zip
+	-rm -f build/[3-9]* darby.osis.xml html/[1-9A-Z]*.html html/darby.html sword/[a-z]* zsword/[a-z]* darby.osis.bz2 darby.osis.zip darby.zip darby.html.zip
 
 distclean: clean
 	-rm -f build/*.* *~
