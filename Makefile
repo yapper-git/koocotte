@@ -88,8 +88,8 @@ frejnd.conf: darby.osis.xml darby-conf.xslt
 
 sword/nt.bzz: darby.osis.xml
 	-mkdir sword
-	#$(OSIS2MOD) sword $< 0 2 4
-	$(OSIS2MOD) sword $< -z
+	#$(OSIS2MOD) sword $< 0 2 4 -v NRSV
+	$(OSIS2MOD) sword $< -z -v NRSV
 	du -sh $< sword
 
 $(INSTALLCONF)/frejnd.conf: frejnd.conf
