@@ -59,7 +59,7 @@ build/4-darby.xhtml: build/3-darby.xhtml
 
 # darbywork.pl: xhtml to xml-pseudo-osis translator
 build/5-darby.xml: build/4-darby.xhtml darbywork.pl
-	./darbywork.pl $< $@.p
+	perl -w -I$(shell pwd) darbywork.pl $< $@.p
 	xmlwf -t $@.p
 	mv $@.p $@
 	#false

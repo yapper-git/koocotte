@@ -6,7 +6,7 @@
 # $Id: bibleref.pl,v 1.2 2007-12-29 20:56:05 seb Exp $
 #
 
-use encoding "utf8";	# Le code est écrit en UTF-8
+use utf8;	# Le code est écrit en UTF-8
 use strict;		# On n'écrit pas comme un porc
 use warnings;		#   du quebec
 use Data::Dumper;	# Stringify perl data structures

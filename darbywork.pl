@@ -8,7 +8,7 @@
 
 #use encoding "UTF-8",STDIN => 'UTF-8',STDOUT => 'UTF-8';	
 	# Le code est écrit en UTF-8
-use encoding "UTF-8";
+use utf8;
 #use locale;
 #use utf8;
 use strict;		# On n'écrit pas comme un porc

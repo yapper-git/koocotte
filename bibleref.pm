@@ -6,7 +6,7 @@ package bibleref;
 # $Id: bibleref.pm,v 1.3 2007-12-29 20:54:12 seb Exp $
 #
 
-use encoding "utf8";	# Le code est écrit en UTF-8
+use utf8;	# Le code est écrit en UTF-8
 use strict;		# On n'écrit pas comme un porc
 use warnings;		#   du quebec
 use English;		# Explicit variables names
